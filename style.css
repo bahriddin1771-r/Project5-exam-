@@ -32,3 +32,51 @@
 .right1 .shopping {
     width: 30px;
 }
+
+
+.section1 {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.left2 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-left: 160px;
+}
+.left2 h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+.left2 span {
+    border-top: 4px solid #FF9C08;
+    padding-top: 25px;
+}
+.left2 p {
+    font-size: 21px;
+    color: grey;
+}
+.line1 {
+    display: flex;
+    gap: 15px;
+}
+.line1 .donate_btn {
+    width: 140px;
+    height: 55px;
+    background-color: #FF9C08;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+}
+.line1 .about_btn {
+    width: 150px;
+    height: 55px;
+    background-color: white;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 10px;
+    font-weight: 600;
+}
