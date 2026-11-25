@@ -1,0 +1,34 @@
+* {
+    font-family: "DM Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.header .left1 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.header .right1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}   
+.right1 .donate_btn {
+    width: 120px;
+    height: 40px;
+    background-color: #FF9C08;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+}
+.right1 .shopping {
+    width: 30px;
+}
