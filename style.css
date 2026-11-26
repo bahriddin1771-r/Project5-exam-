@@ -80,3 +80,26 @@
     border-radius: 10px;
     font-weight: 600;
 }
+
+
+.section2 {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0px 60px 180px;
+    border-bottom: 1px solid rgb(182, 182, 182);
+}
+.blk1 h1 {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+.blk1 span {
+    color: #FF9C08;
+}
+.blk1 p {
+    color: grey;
+    text-align: center;
+    padding-top: 6px;
+}
