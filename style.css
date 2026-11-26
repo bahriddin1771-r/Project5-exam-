@@ -176,3 +176,52 @@
     color: white;
     font-size: 10px;
 }
+
+
+.section4 {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 350px;
+    align-items: center;
+}
+.section4 .left4 h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #FF9C08;
+}
+.section4 .left4 h1 {
+    font-size: 42px;
+    font-weight: 700;
+}
+.left4 h1 {
+    font-size: 42px;
+}
+.left4 .donate_btn {
+    width: 140px;
+    height: 55px;
+    background-color: #FF9C08;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+}
+.left4 .main {
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.left4 .main .blk2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.blk2 img {
+    width: 50px;
+}
+.blk {
+    position: relative;
+    top: -80px;
+}
